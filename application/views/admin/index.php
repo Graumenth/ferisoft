@@ -14,10 +14,14 @@
 			</tr>
 		</thead>
 		<tbody>
-			<tr>
-				<td>Mark</td>
-				<td>Otto</td>
-			</tr>
+		<?php
+			foreach ($items as $item){?>
+				<tr>
+					<td><?php echo $item->name; ?></td>
+					<td><?php echo $item->message; ?></td>
+				</tr>
+			<?php}
+			?>
 		</tbody>
 	</table>
 </div>
