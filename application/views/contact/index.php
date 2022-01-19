@@ -12,8 +12,8 @@
 			<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
 		</div>
 		<div class="form-group">
-			<label for="exampleInputPassword1">Password</label>
-			<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+			<label for="message_area">Password</label>
+			<textarea class="form-control" id="message_area" placeholder="Please write your message">
 		</div>
 		<button type="submit" class="btn btn-primary">Submit</button>
 	</form>
