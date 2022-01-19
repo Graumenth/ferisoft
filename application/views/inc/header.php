@@ -7,8 +7,8 @@
 
 		<ul class="nav nav-pills">
 			<li class="nav-item"><a href="<?php echo base_url('index')?>" class="nav-link active" aria-current="page">Home</a></li>
-			<li class="nav-item"><a href="<?php echo base_url('')?>" class="nav-link">Contact</a></li>
-			<li class="nav-item"><a href="<?php echo base_url('')?>" class="nav-link">Admin</a></li>
+			<li class="nav-item"><a href="<?php echo base_url('contact/index')?>" class="nav-link">Contact</a></li>
+			<li class="nav-item"><a href="<?php echo base_url('admin/index')?>" class="nav-link">Admin</a></li>
 		</ul>
 	</header>
 </div>

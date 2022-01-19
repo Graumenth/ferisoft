@@ -5,7 +5,7 @@
 <?php $this->load->view('inc/header'); ?>
 <div class="container">
 	<h1>Welcome</h1>
-	<a href="<?php base_url('contact/index')?>" class="btn btn-primary">Contact</a>
+	<a href="<?php echo base_url('contact')?>" class="btn btn-primary">Contact</a>
 </div>
 <?php $this->load->view('inc/footer'); ?>
 <?php $this->load->view('inc/scripts'); ?>
